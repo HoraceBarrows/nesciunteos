@@ -1,0 +1,22 @@
+{
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "test:e2e:all": "mono run test:e2e -i @e2e-tests/*"
+  },
+  "devDependencies": {
+    "@enzsft/mono": "^1.2.1"
+  },
+  "name": "nesciunteos",
+  "author": "BellaKilback",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoraceBarrows/nesciunteos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoraceBarrows/nesciunteos.git/issues"
+  },
+  "homepage": "https://github.com/HoraceBarrows/nesciunteos.git",
+  "version": "1.0.0"
+}

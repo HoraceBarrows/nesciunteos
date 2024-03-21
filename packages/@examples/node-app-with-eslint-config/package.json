@@ -1,0 +1,16 @@
+{
+  "name": "@examples/node-app-with-eslint-config",
+  "version": "1.4.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "ts-engine build --node-app",
+    "lint": "ts-engine lint",
+    "start": "ts-engine start",
+    "test": "ts-engine test",
+    "typecheck": "ts-engine typecheck"
+  },
+  "devDependencies": {
+    "@ts-engine/cli": "1.4.1"
+  }
+}
